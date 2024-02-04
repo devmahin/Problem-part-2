@@ -25,16 +25,19 @@ let topPhones = [
     },
 ]
 
-function arrayBiggest(phone){
-    let minPrice = phone[0];
-    for (let phones of phone){
-        console.log(phones["price"])
-        if(phones["price"] < minPrice["price"]){
-            minPrice = phones
-        }
-    }
-    return minPrice;
-}
+// function arrayBiggest(phone){
+//     let minPrice = phone[0];
+//     for (let phones of phone){
+//         console.log(phones["price"])
+//         if(phones["price"] < minPrice["price"]){
+//             minPrice = phones
+//         }
+//     }
+//     return minPrice;
+// }
 
-let phonesLowest = arrayBiggest(topPhones)
-console.log(phonesLowest)
+// let phonesLowest = arrayBiggest(topPhones)
+// console.log(phonesLowest)
+
+
+
